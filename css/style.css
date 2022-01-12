@@ -32,7 +32,7 @@ a:hover{
        }
 
 footer{
-    background-color: beige;
+    background-color: burlywood;
     height: 150px;
       }
 
@@ -41,7 +41,6 @@ footer{
 .image-parent{padding-left: 20px;}
 
 p{
-    margin: 200px;
     font-size: 20px;
     text-align: justify;
  }
