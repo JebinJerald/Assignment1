@@ -14,13 +14,17 @@ h3{text-align: center; padding-top: 70px;}
 
 body{ background-size: cover;}
 
-.login{margin: 40px; margin-left: 200px; margin-right: 300px;}
+.login{margin-top: 50px; margin-left: 270px;
+       font-weight: bold;
+      }
 
-.signup{margin-left: 300px; margin-right: 300px;}
+.signup{margin-left: 19em;}
 
 .form-group{padding: 8px;}
 
-.hint-text{color: white;}
+.hint-text{color: white;
+           margin-left: 19em;
+          }
 
 .plus{color: white;}
 
