@@ -57,7 +57,6 @@ function check1(){
             pwderror1.style.color = "red";
             return false;
         }
-        return true;
     } else{
         emailerror1.innerHTML = "Email entered is invalid";
         emailerror1.style.color = "red";
