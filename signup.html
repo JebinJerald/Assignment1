@@ -42,48 +42,48 @@
       <div>
         <form class="signup animate pop" action="index.html" onsubmit="return check() && checkpwd() && checkphone() && checkconpwd()">
             <h2 class="animate pop delay-1" style="color: black;">Sign Up to Kerala Tourism</h2>
-            <p class="animate pop delay-2" style="color: black;">Please fill in this form to create an account</p>
+            <p class="plsfill animate pop delay-2" style="color: black;">Please fill in this form to create an account</p>
             <hr>
-            <div class="form-group">
-                <div class="row">
-                    <div class="col-sm-3">
-                    <label for="firstname">First Name</label>
-                    <input type="text" class="form-control" placeholder="e.g. John" required id="firstname">
-                    </div> 
-                    <div class="col-sm-3">
-                    <label for="lastname">Last Lame</label>
-                    <input type="text" class="form-control" placeholder="e.g. Smith" required id="lastname">
-                    </div>
-                    <div class="col-sm-3">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" class="form-control" placeholder="0123456789" required id="phone">
-                    <label for="phonerror" id="phonerror"></label>
-                    </div>
-                </div>        	
+            <div class="form-group col-sm-4">
+              <label for="firstname">First Name</label>
+              <input type="text" class="form-control" placeholder="e.g. John" required id="firstname">
             </div>
-            <div class="form-group col-sm-3">
+            <br>
+            <div class="form-group col-sm-4">
+              <label for="lastname">Last Lame</label>
+              <input type="text" class="form-control" placeholder="e.g. Smith" required id="lastname">
+            </div>
+            <br>
+            <div class="form-group col-sm-4">
+              <label for="phone">Phone Number</label>
+              <input type="tel" class="form-control" placeholder="0123456789" required id="phone">
+              <label for="phonerror" id="phonerror"></label>
+              </div>
+            <div class="form-group col-sm-4">
                 <label for="email">Email</label>
                 <input type="email" class="form-control" placeholder="Enter a valid email id" required id="email">
                 <label for="emailerror" id="emailerror"></label>
             </div>
-            <div class="form-group col-sm-3">
+            <div class="form-group col-sm-4">
                 <label for="pwd">Password</label>
                 <input type="password" class="form-control" placeholder="Enter a strong password" required id="pwd">
                 <label for="pwderror" id="pwderror"></label>
             </div>
-            <div class="form-group col-sm-3">
+            <div class="form-group col-sm-4">
                 <label for="conpwd">Confirm Password</label>
                 <input type="password" class="form-control" placeholder="Repeat the password" required id="conpwd">
                 <label for="conpwderror" id="conpwderror"></label>
             </div>        
-            <div class="form-group plus col-sm-3">
+            <div class="form-group plus col-sm-4">
                 <label class="checkbox-inline" style="color: black;"><input type="checkbox" required> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
             </div>
+            <br>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-lg" id="submit">Sign Up</button>
             </div>
         </form>
-        <div class="hint-text" style="color: black;">Already have an account? <a href="login.html";>Sign in</a></div>
+        <br>
+        <div class="already hint-text" style="color: black;">Already have an account? <a href="login.html";>Sign in</a></div>
     </div>
     <!-- /signup-form -->
     <br>

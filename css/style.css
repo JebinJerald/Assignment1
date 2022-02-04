@@ -1,9 +1,9 @@
 *{
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    position: relative;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  }
 
 .navbar{padding-right: 20px;}
@@ -17,16 +17,18 @@ h3{text-align: center; padding-top: 70px;}
 body{ background-size: cover;}
 
 .login{margin-top: 50px; margin-left: 270px;
-       font-weight: bold;
-      }
+       font-weight: bold;}
 
 .signup{margin-left: 19em;}
 
-.form-group{padding: 8px;}
+.form-group{margin-left: 200px;}
+
+.plsfill{margin-left: 190px;}
+
+.already{padding-left: 195px;}
 
 .hint-text{color: white;
-           margin-left: 19em;
-          }
+           margin-left: 19em;}
 
 .plus{color: white;}
 
@@ -48,9 +50,10 @@ footer{
 .image-parent{padding-left: 20px;}
 
 p{
-    font-size: 20px;
-    text-align: justify;
+  font-size: 20px;
+  text-align: justify;
  }
+
 img{border-radius: 5px;}
 
 .animate {
@@ -82,14 +85,8 @@ img{border-radius: 5px;}
     }
   }
   
-  .delay-1 {
-    animation-delay: 0.6s;
-  }
+  .delay-1 {animation-delay: 0.6s;}
       
-  .delay-2 {
-    animation-delay: 0.7s;
-  }
+  .delay-2 {animation-delay: 0.7s;}
       
-  .delay-3 {
-    animation-delay: 0.8s;
-  }
+  .delay-3 {animation-delay: 0.8s;}
